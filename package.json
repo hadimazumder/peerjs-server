@@ -1,0 +1,14 @@
+{
+  "name": "peerjs-server",
+  "version": "1.0.0",
+  "description": "PeerJS signalling server",
+  "scripts": {
+    "start": "peerjs --port $PORT --path /peer --alive_timeout 60000"
+  },
+  "dependencies": {
+    "peer": "0.6.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
